@@ -19,6 +19,12 @@ mono_crash.*
 #Apple Computers
 .DS_Store
 
+#Design Files for local use only
+.ai
+.eps
+.id
+.psd
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
