@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+/* index page */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel {
+  height: 300px;
+  perspective: 500px;
+}
+
+.carousel .carousel-item {
+  width: 250px;
+}
+
+.carousel .carousel-item img {
+  width: 80%;
+}
+
+.indicators {
+  display: none;
+}
+
+/* Header Styles */
+
+.logo-header {
+  margin: 5px 0px 8px 8px;
+}
+
+.nav-wrapper {
+  background-color: #084c61;
+}
+
+.dropdown-content li > a,
+.dropdown-content li > span {
+  color: #084c61;
+}

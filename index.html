@@ -4,19 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- External stylesheets from UIkit https://getuikit.com -->
-    <link rel="stylesheet" href="css/uikit.min.css" />
-    <!-- Local Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Cela Designs</title>
+    <title>designs by jeff</title>
 </head>
 <body>
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="dev.html">Development</a></li>
+        <li><a href="photo.html">Photography</a></li>
+        <li><a href="design.html">Design</a></li>
+        <li><a href="account.html">Experience</a></li>
+    </ul>
+    <ul id="dropdown2" class="dropdown-content">
+        <li><a href="about.html">About</a></li>
+        <li><a href="assets/images/cela.j.pdf" target="_blank">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <!-- Desktop Navigation -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo"><img class="logo-header" src="assets/images/brand_logos/designs_byJeff_white_hor.png" alt="Logo"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Main</a></li>
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Portfolio<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">About<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Mobile Navigation -->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Main</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="assets/images/cela.j.pdf" target="_blank">Resume</a></li>
+    </ul>
 
-    
+        <h1 class="center"> Curator of Design, Code, and Photography.</h1>
+        <div class="carousel">
+            <a href="#one" class="carousel-item" onclick="document.location='about.html'"><img src="assets/images/design_files/about_icon-01.png" alt=""></a>
+            <a href="#two" class="carousel-item" onclick="document.location='dev.html'"><img src="assets/images/design_files/dev_icon-01.png" alt=""></a>
+            <a href="#three" class="carousel-item" onclick="document.location='photo.html'"><img src="assets/images/design_files/photo_icon-01.png" alt=""></a>
+            <a href="#four" class="carousel-item" onclick="document.location='graphic.html'"><img src="assets/images/design_files/graphic_icon-01.png" alt=""></a>
+            <a href="#five" class="carousel-item" onclick="document.location='account.html'"><img src="assets/images/design_files/account_icon-01.png" alt=""></a>
+            <a href="#six" class="carousel-item" onclick="document.location='connect.html'"><img src="assets/images/design_files/connect_icon-01.png" alt=""></a>
+        </div>
+    </div>
 
-    <!-- External Script Files from UIkit https://getuikit.com/ -->
-    <script src="js/uikit-icons.min.js"></script>
-    <!-- Local Script File -->
+
+        <!-- This is the footer -->
+        <!-- <footer>
+            <ul>
+                <a href="https://github.com/jeffcela" target="_blank"><img class="footer-icon"
+                        src="assets/images/github_icon.png" alt="Github"></a>
+                <a href="https://www.instagram.com/jeffcela/?hl=en" target="_blank"><img class="footer-icon"
+                        src="assets/images/instagram_icon.png" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/in/jeffcela/" target="_blank"><img class="footer-icon"
+                        src="assets/images/linkedin_icon.png" alt="Linkedin"></a>
+            </ul>
+            <p>&copy; 2021 designs by jeff</p>
+        </footer> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="assets/js/carousel.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
