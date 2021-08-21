@@ -1,3 +1,12 @@
+/* Colors for quick apply
+  var(--lightBlue);
+  var(--darkBlue);
+  var(--yellow);
+  var(--red);
+  var(--grey);
+  var(--white);
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
@@ -6,8 +15,8 @@
   font-family: "Oswald", sans-serif;
 }
 ::selection {
-  color: #fff;
-  background: #084c61;
+  color: var(--white);
+  background: var(--darkBlue);
 }
 
 .wrapper {
@@ -30,15 +39,15 @@
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
-  color: #084c61;
+  color: var(--darkBlue);
   border-radius: 10px;
-  border: 2px solid #084c61;
+  border: 2px solid var(--darkBlue);
   transition: all 0.3s ease;
 }
 .items span.active,
 .items span:hover {
-  color: #fff;
-  background: #084c61;
+  color: var(--white);
+  background: var(--darkBlue);
 }
 
 .gallery {
@@ -83,7 +92,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.9);
-  background: #fff;
+  background: var(--white);
   max-width: 700px;
   width: 100%;
   z-index: 5;
@@ -91,7 +100,7 @@
   pointer-events: none;
   border-radius: 3px;
   padding: 0 5px 5px 5px;
-  box-shadow: 0px 0px 15px #323031;
+  box-shadow: 0px 0px 15px var(--grey);
 }
 .preview-box.show {
   opacity: 1;
@@ -115,7 +124,7 @@
   margin-left: 5px;
 }
 .details .icon {
-  color: #084c61;
+  color: var(--darkBlue);
   font-style: 22px;
   cursor: pointer;
 }
@@ -135,7 +144,7 @@
   width: 100%;
   z-index: 2;
   display: none;
-  background: #323031;
+  background: var(--grey);
 }
 .shadow.show {
   display: block;

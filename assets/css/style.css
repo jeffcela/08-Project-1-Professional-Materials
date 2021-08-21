@@ -4,6 +4,21 @@
   font-family: "Oswald", sans-serif;
 }
 
+:root {
+  --lightBlue: #177e89;
+  /* var(--lightBlue); */
+  --darkBlue: #084c61;
+  /* var(--darkBlue); */
+  --yellow: #ffc857;
+  /* var(--yellow); */
+  --red: #db3a34;
+  /* var(--red); */
+  --grey: #323031;
+  /* var(--grey); */
+  --white: #ffffff;
+  /* var(--white); */
+}
+
 /* index page */
 body {
   margin: 0;
@@ -18,13 +33,13 @@ main {
 }
 
 .body-index {
-  background-color: #084c61;
+  background-color: var(--darkBlue);
 }
 
 .carousel {
   height: 300px;
-  perspective: 500px;
-  background-color: white;
+  perspective: 800px;
+  background-color: var(--white);
 }
 
 .carousel .carousel-item {
@@ -41,38 +56,43 @@ main {
 
 h1 {
   margin-bottom: 75px;
-  color: white;
+  color: var(--white);
 }
 
 h3 {
   margin: 75px 0px -30px 0px;
-  color: #ffc857;
+  color: var(--yellow);
 }
 
 /* Header Styles */
 
 .logo-header {
-  margin: 5px 0px 8px 8px;
+  width: 175px;
+  margin: 10px 0px 10px 10px;
 }
 
 .nav-wrapper {
-  background-color: #084c61;
+  background-color: var(--darkBlue);
 }
 
 .dropdown-content li > a,
 .dropdown-content li > span {
-  color: #084c61;
+  color: var(--darkBlue);
+}
+
+.icon-page {
+  width: 50px;
 }
 
 /* Footer Styles */
 
 .page-footer {
-  background-color: #323031;
+  background-color: var(--grey);
 }
 
 .footer-icon {
-  margin-bottom: 10px;
-  width: 35px;
+  margin: 10px 15px;
+  width: 25px;
 }
 
 @media (max-width: 1000px) {
