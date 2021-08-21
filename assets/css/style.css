@@ -8,11 +8,23 @@
 body {
   margin: 0;
   padding: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.body-index {
+  background-color: #084c61;
 }
 
 .carousel {
   height: 300px;
   perspective: 500px;
+  background-color: white;
 }
 
 .carousel .carousel-item {
@@ -25,6 +37,16 @@ body {
 
 .indicators {
   display: none;
+}
+
+h1 {
+  margin-bottom: 75px;
+  color: white;
+}
+
+h3 {
+  margin: 75px 0px -30px 0px;
+  color: #ffc857;
 }
 
 /* Header Styles */
@@ -40,4 +62,47 @@ body {
 .dropdown-content li > a,
 .dropdown-content li > span {
   color: #084c61;
+}
+
+/* Footer Styles */
+
+.page-footer {
+  background-color: #323031;
+}
+
+.footer-icon {
+  margin-bottom: 10px;
+  width: 35px;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 55px;
+    margin-bottom: 50px;
+  }
+  h3 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 45px;
+    margin-bottom: 25px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .logo-header {
+    width: 160px;
+  }
 }
