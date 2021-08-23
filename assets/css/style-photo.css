@@ -7,7 +7,6 @@
   var(--white);
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +16,11 @@
 ::selection {
   color: var(--white);
   background: var(--darkBlue);
+}
+
+.photo-text {
+  margin: 25px 0px -75px 0px;
+  font-size: 20px;
 }
 
 .wrapper {
@@ -154,6 +158,9 @@
   .gallery .image {
     width: calc(100% / 3);
   }
+  .photo-text {
+    font-size: 16px;
+  }
 }
 @media (max-width: 800px) {
   .gallery .image {
@@ -181,5 +188,9 @@
   }
   .gallery .image {
     width: 100%;
+  }
+  .photo-text {
+    font-size: 16px;
+    margin-bottom: 5px;
   }
 }

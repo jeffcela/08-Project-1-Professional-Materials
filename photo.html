@@ -4,9 +4,11 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- External stylesheets -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <!-- Local style sheets, style-photo is only for this page, style is used for all .html files -->
         <link rel="stylesheet" href="assets/css/style-photo.css"/>
         <link rel="stylesheet" href="assets/css/style.css" />
 
@@ -30,6 +32,7 @@
         <nav>
             <div class="nav-wrapper">
                 <a href="index.html" class="brand-logo"><img class="logo-header" src="assets/images/brand_logos/designs_byJeff_white_hor.png" alt="Logo"></a>
+                <a href="photo.html" class="brand-logo center"><img class="icon-header" src="assets/images/design_files/photo_icon_header.png" alt="Logo"></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="index.html">Main</a></li>
@@ -50,12 +53,14 @@
         </ul>
 
         <!--Content for page starts here -->
-        <div>
-        <img class="icon-page" src="assets/images/design_files/photo_icon-01.png" alt="Camera Icon"/>
-        <p>Some may call me a photograher, but I like to identify as a time thief. I steal fractions of seconds and preserved them until the end of time.</p>
+        <div class="container">
+            <div class="row">
+                <p class="col s12 m12 photo-text light-2">Some may call me a photograher, but I like to identify as a time thief. I steal fractions of seconds and preserved them. These seconds are never returned to their owner, most will be shared by strangers. The collection of work is how I see the world, the meaning behide each image changes as time moves on. Do not overthink, just listen to your first thought, breath, relax, and the true meaning will present itself once you let go.</p>
+            </div>
         </div>
+        <!-- Filtered Gallery -->
         <div class="wrapper">
-            <!-- filter Items -->
+            <!-- Filter Items -->
             <section>
                 <div class="items">
                     <span class="item active" data-name="all">All</span>
@@ -67,49 +72,50 @@
                     <span class="item" data-name="Abstract">Abstract</span>
                 </div>
             </section>
-            <!-- filter Images -->
+            <!-- Filter Images, the order they are placed is the order they will be displayed in, this is for ALL and for the specified filter -->
             <div class="gallery">
-                <div class="image" data-name="People"><span><img src="assets/images/photos/P7.jpg" alt=""></span></div>
-                <div class="image" data-name="Abstract"><span><img src="assets/images/photos/light.jpg" alt=""></span></div>
-                <div class="image" data-name="Nature"><span><img src="assets/images/photos/fishing_spot.jpg" alt=""></span></div>
-                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/CA_canal.jpg" alt=""></span></div>
-                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/paris_commute.jpg" alt=""></span></div>
-                <div class="image" data-name="Luna"><span><img src="assets/images/photos/luna_sleep.jpg" alt=""></span></div>
-                <div class="image" data-name="Abstract"><span><img src="assets/images/photos/fairyTail.jpg" alt=""></span></div>
-                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/Far_vision.jpg" alt=""></span></div>
-                <div class="image" data-name="People"><span><img src="assets/images/photos/photo_of_photo.jpg" alt=""></span></div>
-                <div class="image" data-name="Luna"><span><img src="assets/images/photos/Luna_checkup.jpg" alt=""></span></div>
-                <div class="image" data-name="Abstract"><span><img src="assets/images/photos/light-4.jpg" alt=""></span></div>
-                <div class="image" data-name="Dual Identity"><span><img src="assets/images/photos/Dual-Identity.jpg" alt=""></span></div>
-                <div class="image" data-name="Nature"><span><img src="assets/images/photos/moonlight.jpg" alt=""></span></div>
-                <div class="image" data-name="People"><span><img src="assets/images/photos/P1.jpg" alt=""></span></div>
-                <div class="image" data-name="People"><span><img src="assets/images/photos/P3.jpg" alt=""></span></div>
-                <div class="image" data-name="People"><span><img src="assets/images/photos/P2.jpg" alt=""></span></div>
-                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/oneway.jpg" alt=""></span></div>
-                <div class="image" data-name="People"><span><img src="assets/images/photos/P6.jpg" alt=""></span></div>
-                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/No_parking.jpg" alt=""></span></div>
-                <div class="image" data-name="Nature"><span><img src="assets/images/photos/blade.jpg" alt=""></span></div>
-                <div class="image" data-name="Abstract"><span><img src="assets/images/photos/dr.jpg" alt=""></span></div>
-                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/brick_store.jpg" alt=""></span></div>
-                <div class="image" data-name="Abstract"><span><img src="assets/images/photos/light-3.jpg" alt=""></span></div>
-                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/paris_streets.jpg" alt=""></span></div>
-                <div class="image" data-name="Abstract"><span><img src="assets/images/photos/ball_up.jpg" alt=""></span></div>
-                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/brick_500.jpg" alt=""></span></div>
-                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/V.jpg" alt=""></span></div>
-                <div class="image" data-name="Luna"><span><img src="assets/images/photos/Luna_can-we-go.jpg" alt=""></span></div>
-                <div class="image" data-name="Abstract"><span><img src="assets/images/photos/reflection.jpg" alt=""></span></div>
-                <div class="image" data-name="People"><span><img src="assets/images/photos/P5.jpg" alt=""></span></div>
-                <div class="image" data-name="People"><span><img src="assets/images/photos/P4.jpg" alt=""></span></div>
-                <div class="image" data-name="Abstract"><span><img src="assets/images/photos/insta_photo.jpg" alt=""></span></div>
-                <div class="image" data-name="Nature"><span><img src="assets/images/photos/face_cut.jpg" alt=""></span></div>
-                <div class="image" data-name="Dual Identity"><span><img src="assets/images/photos/Dual-Identity2.jpg" alt=""></span></div>
-                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/midnight_in_paris.jpg" alt=""></span></div>
-                <div class="image" data-name="Dual Identity"><span><img src="assets/images/photos/Dual-Identity3.jpg" alt=""></span></div>
-                <div class="image" data-name="Luna"><span><img src="assets/images/photos/Red_Luna.jpg" alt=""></span></div>
-                <div class="image" data-name="Abstract"><span><img src="assets/images/photos/light-2.jpg" alt=""></span></div>
+                <!-- data-name is how the filter works, any new filter will need to be added to the filter items as a button and to the image -->
+                <div class="image" data-name="People"><span><img src="assets/images/photos/P7.jpg" alt="Girl washing cars"></span></div>
+                <div class="image" data-name="Abstract"><span><img src="assets/images/photos/light.jpg" alt="street light"></span></div>
+                <div class="image" data-name="Nature"><span><img src="assets/images/photos/fishing_spot.jpg" alt="river"></span></div>
+                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/CA_canal.jpg" alt="canal"></span></div>
+                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/paris_commute.jpg" alt="paris train tracks"></span></div>
+                <div class="image" data-name="Luna"><span><img src="assets/images/photos/luna_sleep.jpg" alt="luna sleeping"></span></div>
+                <div class="image" data-name="Abstract"><span><img src="assets/images/photos/fairyTail.jpg" alt="fairy tail wedding"></span></div>
+                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/Far_vision.jpg" alt="telescope"></span></div>
+                <div class="image" data-name="People"><span><img src="assets/images/photos/photo_of_photo.jpg" alt="mural"></span></div>
+                <div class="image" data-name="Luna"><span><img src="assets/images/photos/Luna_checkup.jpg" alt="luna at the vet"></span></div>
+                <div class="image" data-name="Abstract"><span><img src="assets/images/photos/light-4.jpg" alt="light sculpture"></span></div>
+                <div class="image" data-name="Dual Identity"><span><img src="assets/images/photos/Dual-Identity.jpg" alt="finger print with face within grooves"></span></div>
+                <div class="image" data-name="Nature"><span><img src="assets/images/photos/moonlight.jpg" alt="moon and clouds"></span></div>
+                <div class="image" data-name="People"><span><img src="assets/images/photos/P1.jpg" alt="a man posing"></span></div>
+                <div class="image" data-name="People"><span><img src="assets/images/photos/P3.jpg" alt="aviator sunglasses"></span></div>
+                <div class="image" data-name="People"><span><img src="assets/images/photos/P2.jpg" alt="photographer"></span></div>
+                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/oneway.jpg" alt="one way street sign"></span></div>
+                <div class="image" data-name="People"><span><img src="assets/images/photos/P6.jpg" alt="train station"></span></div>
+                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/No_parking.jpg" alt="no parking sign"></span></div>
+                <div class="image" data-name="Nature"><span><img src="assets/images/photos/blade.jpg" alt="a blade of grass"></span></div>
+                <div class="image" data-name="Abstract"><span><img src="assets/images/photos/dr.jpg" alt="abstract texture"></span></div>
+                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/brick_store.jpg" alt="brick wall"></span></div>
+                <div class="image" data-name="Abstract"><span><img src="assets/images/photos/light-3.jpg" alt="light bulb"></span></div>
+                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/paris_streets.jpg" alt="streets of paris"></span></div>
+                <div class="image" data-name="Abstract"><span><img src="assets/images/photos/ball_up.jpg" alt="beach ball strung up with lights"></span></div>
+                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/brick_500.jpg" alt="brick building"></span></div>
+                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/V.jpg" alt="venice beach sign"></span></div>
+                <div class="image" data-name="Luna"><span><img src="assets/images/photos/Luna_can-we-go.jpg" alt="luna stretched out"></span></div>
+                <div class="image" data-name="Abstract"><span><img src="assets/images/photos/reflection.jpg" alt="reflection in side mirror"></span></div>
+                <div class="image" data-name="People"><span><img src="assets/images/photos/P5.jpg" alt="a man posing"></span></div>
+                <div class="image" data-name="People"><span><img src="assets/images/photos/P4.jpg" alt="a hippie and a jamican posing"></span></div>
+                <div class="image" data-name="Abstract"><span><img src="assets/images/photos/insta_photo.jpg" alt="tattoo of a camera lens"></span></div>
+                <div class="image" data-name="Nature"><span><img src="assets/images/photos/face_cut.jpg" alt="face cut of stack logs"></span></div>
+                <div class="image" data-name="Dual Identity"><span><img src="assets/images/photos/Dual-Identity2.jpg" alt="finger prints with faces within grooves"></span></div>
+                <div class="image" data-name="Urbanscape"><span><img src="assets/images/photos/midnight_in_paris.jpg" alt="bridge in paris"></span></div>
+                <div class="image" data-name="Dual Identity"><span><img src="assets/images/photos/Dual-Identity3.jpg" alt="finger prints with faces within grooves"></span></div>
+                <div class="image" data-name="Luna"><span><img src="assets/images/photos/Red_Luna.jpg" alt="Luna in at the red mill"></span></div>
+                <div class="image" data-name="Abstract"><span><img src="assets/images/photos/light-2.jpg" alt="grunge light"></span></div>
             </div>
         </div>
-        <!-- fullscreen img preview box -->
+        <!-- Fullscreen img preview box -->
         <div class="preview-box">
             <div class="details">
                 <span class="title">Image Category: <p></p></span>
@@ -124,12 +130,9 @@
             <div>
                 <div>
                     <ul class=" row center">
-                        <oi><a href="https://github.com/jeffcela" target="_blank"><img class="footer-icon"
-                                    src="assets/images/github_icon.png" alt="Github Icon"></a></li>
-                            <oi><a href="https://www.instagram.com/jeffcela/?hl=en" target="_blank"><img class="footer-icon"
-                                        src="assets/images/instagram_icon.png" alt="Instagram Icon"></a></li>
-                                <oi><a href="https://www.linkedin.com/in/jeffcela/" target="_blank"><img class="footer-icon"
-                                            src="assets/images/linkedin_icon.png" alt="Linkedin Icon"></a></li>
+                        <oi><a href="https://github.com/jeffcela" target="_blank"><img class="footer-icon" src="assets/images/github_icon.png" alt="Github Icon"></a></li>
+                        <oi><a href="https://www.instagram.com/jeffcela/?hl=en" target="_blank"><img class="footer-icon" src="assets/images/instagram_icon.png" alt="Instagram Icon"></a></li>
+                        <oi><a href="https://www.linkedin.com/in/jeffcela/" target="_blank"><img class="footer-icon" src="assets/images/linkedin_icon.png" alt="Linkedin Icon"></a></li>
                     </ul>
                 </div>
             </div>
@@ -140,9 +143,10 @@
             </div>
         </footer>
 
-        
+    <!-- External Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Local scripts -->
     <script src="assets/js/gallery.js"></script>
     <script src="assets/js/script.js"></script>
     </body>

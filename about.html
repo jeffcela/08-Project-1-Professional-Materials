@@ -5,11 +5,12 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- External stylesheets -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-        <link rel="stylesheet" href="assets/css/style-photo.css" />
+        <!-- Local stylesheets -->
+        <link rel="stylesheet" href="assets/css/style-about.css" />
         <link rel="stylesheet" href="assets/css/style.css" />
         <title>designs by jeff</title>
     </head>
@@ -30,16 +31,14 @@
         <!-- Desktop Navigation -->
         <nav>
             <div class="nav-wrapper">
-                <a href="index.html" class="brand-logo"><img class="logo-header"
-                        src="assets/images/brand_logos/designs_byJeff_white_hor.png" alt="Logo"></a>
+                <a href="index.html" class="brand-logo"><img class="logo-header" src="assets/images/brand_logos/designs_byJeff_white_hor.png" alt="Logo"></a>
+                <a href="about.html" class="brand-logo center"><img class="icon-header" src="assets/images/design_files/about_icon_header.png" alt="bowtie icon"></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="index.html">Main</a></li>
                     <!-- Dropdown Trigger -->
-                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Portfolio<i
-                                class="material-icons right">arrow_drop_down</i></a></li>
-                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">About<i
-                                class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Portfolio<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">About<i class="material-icons right">arrow_drop_down</i></a></li>
                 </ul>
             </div>
         </nav>
@@ -52,18 +51,34 @@
         </ul>
 
         <!--Content for page starts here -->
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col m5">
+                        <img class="bio-picture center" src="assets/images/Jeff_illustration.jpg" alt="illustration of Jeff Cela">
+                    </div>
+                    <div class="col s12 m7 bio-text">
+                        <p>I am a Jersey boy who found a home in the south. Graphic/Web design are my specialties, people are my inspiration, and passion is my fuel. I am considered a jack of all trades with a skill set that ranges from print to digital end products.</p>
+                        <p>I'm a Savannah College of Art and Design Graduate with over 8 years of industry experience. With my ability to self-start, self-teach, and problem solve I bring a unique perspective to creative environments. I am currently enrolled at the GA Tech Full Stack Bootcamp where I am enhacing my abilities and skills in the digital relam.</p>
+                        <p>I learned at a young age that practice does not make perfect as perfection is only a point in which you are satisfied. Practice makes permenant, do it right the first time or dont do it at all, and you only live once are the sayings I live by.</p>
+                        <p class="light">Click icon for my resume<a href="assets/images/cela.j.pdf" target="_blank"><img class="icon-page" src="assets/images/design_files/resume_icon_page.png" alt=""></a></p>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="s12 m12">
+                    <p class="quote center"><a class="quote-marks">"</a> Success is never owned, it is rented and rent is due everyday.<a class="quote-marks">"</a> <a class="quote-name"> -&nbspR.Vaden</a></p>
+                </div>
+            </div>
+        </main>
 
         <!-- This is the footer -->
         <footer class="page-footer">
             <div>
                 <div>
                     <ul class=" row center">
-                        <oi><a href="https://github.com/jeffcela" target="_blank"><img class="footer-icon"
-                                    src="assets/images/github_icon.png" alt="Github Icon"></a></li>
-                            <oi><a href="https://www.instagram.com/jeffcela/?hl=en" target="_blank"><img class="footer-icon"
-                                        src="assets/images/instagram_icon.png" alt="Instagram Icon"></a></li>
-                                <oi><a href="https://www.linkedin.com/in/jeffcela/" target="_blank"><img class="footer-icon"
-                                            src="assets/images/linkedin_icon.png" alt="Linkedin Icon"></a></li>
+                        <oi><a href="https://github.com/jeffcela" target="_blank"><img class="footer-icon" src="assets/images/github_icon.png" alt="Github Icon"></a></li>
+                        <oi><a href="https://www.instagram.com/jeffcela/?hl=en" target="_blank"><img class="footer-icon" src="assets/images/instagram_icon.png" alt="Instagram Icon"></a></li>
+                        <oi><a href="https://www.linkedin.com/in/jeffcela/" target="_blank"><img class="footer-icon" src="assets/images/linkedin_icon.png" alt="Linkedin Icon"></a></li>
                     </ul>
                 </div>
             </div>
@@ -74,9 +89,10 @@
             </div>
         </footer>
     
+    <!-- External script files -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="assets/js/carousel.js"></script>
+    <!-- Local script files -->
     <script src="assets/js/script.js"></script>
     </body>
     

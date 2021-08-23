@@ -19,7 +19,6 @@
   /* var(--white); */
 }
 
-/* index page */
 body {
   margin: 0;
   padding: 0;
@@ -81,7 +80,18 @@ h3 {
 }
 
 .icon-page {
+  width: 30px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+.icon-header {
   width: 50px;
+}
+
+p {
+  padding-bottom: 0px;
 }
 
 /* Footer Styles */
@@ -102,6 +112,9 @@ h3 {
   }
   h3 {
     font-size: 35px;
+  }
+  .icon-header {
+    display: none;
   }
 }
 @media (max-width: 800px) {

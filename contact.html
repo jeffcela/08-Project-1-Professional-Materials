@@ -9,7 +9,7 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-        <link rel="stylesheet" href="assets/css/style-photo.css" />
+        <link rel="stylesheet" href="assets/css/style-contact.css" />
         <link rel="stylesheet" href="assets/css/style.css" />
         <title>designs by jeff</title>
     </head>
@@ -52,18 +52,57 @@
         </ul>
 
         <!--Content for page starts here -->
-
+        <main>
+            <div class="container">
+                <div class="row">
+                    <p class="col s12 m12 center">Looking forward to connecting with you!</p>
+                </div>
+                <div class="row">
+                    <form class="col s12 m12">
+                        <div class="row">
+                            <div class="input-field col s12 m6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="first_name" type="text" class="validate">
+                                <label for="first_name">First Name</label>
+                            </div>
+                            <div class="input-field col s12 m6">
+                                <input id="last_name" type="text" class="validate">
+                                <label for="last_name">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12 m6">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field col s12 m6">
+                                <i class="material-icons prefix">phone_iphone</i>
+                                <input id="phone" type="tel" class="validate">
+                                <label for="phone">Phone Number</label>
+                            </div>
+                        </div>
+                            <div class="row">
+                                <div class="input-field col s12 m12">
+                                    <i class="material-icons prefix">message</i>
+                                    <textarea id="textarea1" class="materialize-textarea" type="text" data-length="200"></textarea>
+                                    <label for="textarea1">Message</label>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="contact-btn right" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </main>
         <!-- This is the footer -->
         <footer class="page-footer">
             <div>
                 <div>
                     <ul class=" row center">
-                        <oi><a href="https://github.com/jeffcela" target="_blank"><img class="footer-icon"
-                                    src="assets/images/github_icon.png" alt="Github Icon"></a></li>
-                            <oi><a href="https://www.instagram.com/jeffcela/?hl=en" target="_blank"><img class="footer-icon"
-                                        src="assets/images/instagram_icon.png" alt="Instagram Icon"></a></li>
-                                <oi><a href="https://www.linkedin.com/in/jeffcela/" target="_blank"><img class="footer-icon"
-                                            src="assets/images/linkedin_icon.png" alt="Linkedin Icon"></a></li>
+                        <oi><a href="https://github.com/jeffcela" target="_blank"><img class="footer-icon" src="assets/images/github_icon.png" alt="Github Icon"></a></li>
+                        <oi><a href="https://www.instagram.com/jeffcela/?hl=en" target="_blank"><img class="footer-icon" src="assets/images/instagram_icon.png" alt="Instagram Icon"></a></li>
+                        <oi><a href="https://www.linkedin.com/in/jeffcela/" target="_blank"><img class="footer-icon" src="assets/images/linkedin_icon.png" alt="Linkedin Icon"></a></li>
                     </ul>
                 </div>
             </div>
@@ -76,7 +115,7 @@
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <script src="assets/js/carousel.js"></script>
+        <script src="assets/js/character_count.js"></script>
         <script src="assets/js/script.js"></script>
     </body>
 
