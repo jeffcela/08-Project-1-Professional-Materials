@@ -1,0 +1,20 @@
+/* Colors for quick apply
+  var(--lightBlue);
+  var(--darkBlue);
+  var(--yellow);
+  var(--red);
+  var(--grey);
+  var(--white);
+*/
+
+.btn-floating {
+  background-color: var(--yellow);
+}
+
+.btn-floating:hover {
+  background-color: var(--red);
+}
+
+.btn-floating:focus {
+  background-color: var(--grey);
+}

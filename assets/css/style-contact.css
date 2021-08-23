@@ -128,9 +128,3 @@
 .input-field .prefix.active {
   color: var(--grey) !important;
 }
-
-@media only screen and (max-width: 600px) {
-  .show-on-small {
-    display: block !important;
-  }
-}

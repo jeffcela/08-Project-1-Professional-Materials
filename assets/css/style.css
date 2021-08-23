@@ -86,8 +86,19 @@ h3 {
   top: 10px;
 }
 
+.icon-header-sm {
+  width: 35px;
+  margin: 10px 0px 10px 10px;
+}
+
 .icon-header {
   width: 50px;
+  margin: 10px 0px 10px 10px;
+}
+
+.icon-header-lg {
+  width: 65px;
+  margin: 10px 0px 10px 10px;
 }
 
 p {
@@ -113,7 +124,9 @@ p {
   h3 {
     font-size: 35px;
   }
-  .icon-header {
+  .icon-header,
+  .icon-header-lg,
+  .icon-header-sm {
     display: none;
   }
 }
