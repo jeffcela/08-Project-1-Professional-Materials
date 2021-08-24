@@ -16,5 +16,16 @@
 }
 
 .btn-floating:focus {
-  background-color: var(--grey);
+  background-color: var(--yellow);
+}
+
+.icon-modal {
+  color: var(--darkBlue);
+  width: 30px;
+  position: relative;
+  top: 7px;
+}
+
+li {
+  list-style: none;
 }

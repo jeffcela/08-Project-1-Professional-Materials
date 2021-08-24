@@ -144,13 +144,20 @@ p {
 @media (max-width: 600px) {
   h1 {
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
   h3 {
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
   .logo-header {
-    width: 160px;
+    width: 125px;
+  }
+  .page-footer {
+    margin-top: 15px;
+  }
+  .footer-icon {
+    margin: 0px 15px;
+    width: 25px;
   }
 }

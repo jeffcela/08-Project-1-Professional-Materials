@@ -55,96 +55,164 @@
         <main>
             <div class="container">
                 <div class="row">
-                    <div class="col s12 m6 l4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="assets/images/design_files/quiz_app.png">
-                                <a href="https://jeffcela.github.io/04-Web-APIs-Code-Quiz/" target="_blank" class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">add</i></a>
+                        <!-- Quiz Application -->
+                        <div class="col s12 m6 l4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="assets/images/design_files/quiz_app.png">
+                                    <a href="#modal1" class="btn-floating halfway-fab waves-effect waves-light modal-trigger modal-close"><i class="material-icons">add</i></a>
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title">Color Quiz</span>
+                                    <p>Do you think you know your color? Try it out and see how you score, if you guess wrong your time will be cut short. Dont forget to log your score, GOOD LUCK!</p>
+                                </div>
                             </div>
-                            <div class="card-content">
-                                <span class="card-title">Color Quiz</span>
-                                <p>Do you think you know your color? Try it out and see how you score, if you guess wrong your time will be cut short. Dont forget to log your score, GOOD LUCK!</p>
+                            <!-- Modal Structure Quiz Application -->
+                            <div id="modal1" class="modal bottom-sheet">
+                                <div class="modal-content modal-close">
+                                    <div class="row">
+                                        <div class="col s12 m4 l2 center">
+                                            <h4>Color Quiz</h4>
+                                            <p><a href="https://jeffcela.github.io/04-Web-APIs-Code-Quiz/" target="_blank"><i class="material-icons prefix icon-modal">web</i>Deployed Project</a></p>
+                                            <p><a href="https://github.com/jeffcela/04-Web-APIs-Code-Quiz" target="_blank"><i class="material-icons prefix icon-modal">sd_storage</i>Project Repository</a></p>
+                                        </div>
+                                        <img class="col s12 m8 l10" src="assets/images/brand_logos/code_quiz.gif">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    <!-- Weather Application -->
                     <div class="col s12 m6 l4">
                         <div class="card">
                             <div class="card-image">
                                 <img src="assets/images/design_files/weather_app-01.png">
-                                <a href="https://jeffcela.github.io/06-Server-Side-APIs-Weather-Dashboard/" target="_blank" class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">add</i></a>
+                                <a href="#modal2" class="btn-floating halfway-fab waves-effect waves-light modal-trigger modal-close"><i class="material-icons">add</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Weather App</span>
                                 <p>Want to know the weather for a city you are about to visit? Type in the city and the current and 5 day forecast appears, it evens saves your recent searches.</p>
                             </div>
                         </div>
+                        <!-- Modal Structure Weather App -->
+                        <div id="modal2" class="modal bottom-sheet">
+                            <div class="modal-content modal-close">
+                                <div class="row">
+                                    <div class="col s12 m4 l2 center">
+                                        <h4>Weather Application</h4>
+                                        <p><a href="https://jeffcela.github.io/06-Server-Side-APIs-Weather-Dashboard/" target="_blank"><i class="material-icons prefix icon-modal">web</i>Deployed Project</a></p>
+                                        <p><a href="https://github.com/jeffcela/06-Server-Side-APIs-Weather-Dashboard" target="_blank"><i class="material-icons prefix icon-modal">sd_storage</i>Project Repository</a></p>
+                                    </div>
+                                    <img class="col s12 m8 l10" src="assets/images/brand_logos/weather_app.png">
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <!-- Password Generator -->
                     <div class="col s12 m6 l4">
                         <div class="card">
                             <div class="card-image">
                                 <img src="assets/images/design_files/pass_generator.png">
-                                <a href="https://jeffcela.github.io/03-JavaScript-Password-Generator/" target="_blank" class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">add</i></a>
+                                <a href="#modal3" class="btn-floating halfway-fab waves-effect waves-light modal-trigger modal-close"><i class="material-icons">add</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">Password Generator</span>
                                 <p>Do you need a new password? Do you need a password that has numbers, symbols, and letters to increase the stregnth of it?</p>
                             </div>
                         </div>
+                        <!-- Modal Structure Password Generator -->
+                        <div id="modal3" class="modal bottom-sheet">
+                            <div class="modal-content modal-close">
+                                <div class="row">
+                                    <div class="col s12 m4 l2 center">
+                                        <h4>Password Generator</h4>
+                                        <p><a href="https://jeffcela.github.io/03-JavaScript-Password-Generator/" target="_blank"><i class="material-icons prefix icon-modal">web</i>Deployed Project</a></p>
+                                        <p><a href="https://github.com/jeffcela/03-JavaScript-Password-Generator" target="_blank"><i class="material-icons prefix icon-modal">sd_storage</i>Project Repository</a></p>
+                                    </div>
+                                    <img class="col s12 m8 l10" src="assets/images/brand_logos/PssWd_Gen.gif">
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <!-- RottenTrailers -->
                     <div class="col s12 m6 l4">
                         <div class="card">
                             <div class="card-image">
                                 <img src="assets/images/design_files/rt_icon.png">
-                                <a href="https://jeffcela.github.io/Rotten_Trailers/" target="_blank"
-                                    class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">add</i></a>
+                                <a href="#modal4" class="btn-floating halfway-fab waves-effect waves-light modal-trigger modal-close"><i class="material-icons">add</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">RottenTrailers</span>
                                 <p>Want to know if the next 2hrs of watching a movie will be worth it? RottenTrailers brings your the rating and a trailer with one push of a button.</p>
                             </div>
                         </div>
+                        <!-- Modal Structure RottenTrailers -->
+                        <div id="modal4" class="modal bottom-sheet">
+                            <div class="modal-content modal-close">
+                                <div class="row">
+                                    <div class="col s12 m4 l2 center">
+                                        <h4>RottenTrailers</h4>
+                                        <p><a href="https://jeffcela.github.io/Rotten_Trailers/" target="_blank"><i class="material-icons prefix icon-modal">web</i>Deployed Project</a></p>
+                                        <p><a href="https://github.com/jeffcela/Rotten_Trailers" target="_blank"><i class="material-icons prefix icon-modal">sd_storage</i>Project Repository</a></p>
+                                    </div>
+                                    <img class="col s12 m8 l10" src="assets/images/brand_logos/rotten-pre.gif">
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <!-- Scheduler Application-->
                     <div class="col s12 m6 l4">
                         <div class="card">
                             <div class="card-image">
                                 <img src="assets/images/design_files/to-do_app.png">
-                                <a href="https://jeffcela.github.io/05-Third-Party-APIs/" target="_blank" class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">add</i></a>
+                                <a href="#modal5" class="btn-floating halfway-fab waves-effect waves-light modal-trigger modal-close"><i class="material-icons">add</i></a>
                             </div>
                             <div class="card-content">
-                                <span class="card-title">Scheduler</span>
+                                <span class="card-title">Scheduler Application</span>
                                 <p>Looking to stay organized throughout the day? Try out this scheduler, it will keep your on time and organized. With one click you can save to your local storage!</p>
                             </div>
                         </div>
+                        <!-- Modal Structure Scheduler -->
+                        <div id="modal5" class="modal bottom-sheet">
+                            <div class="modal-content modal-close">
+                                <div class="row">
+                                    <div class="col s12 m4 l2 center">
+                                        <h4>Scheduler Application</h4>
+                                        <p><a href="https://jeffcela.github.io/05-Third-Party-APIs/" target="_blank"><i class="material-icons prefix icon-modal">web</i>Deployed Project</a></p>
+                                        <p><a href="https://github.com/jeffcela/05-Third-Party-APIs" target="_blank"><i class="material-icons prefix icon-modal">sd_storage</i>Project Repository</a></p>
+                                    </div>
+                                    <img class="col s12 m8 l10" src="assets/images/brand_logos/scheduler.jpeg">
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <!-- README Generator-->
                     <div class="col s12 m6 l4">
                         <div class="card">
                             <div class="card-image">
                                 <img src="assets/images/design_files/md_icon.png">
-                                <a href="#!" target="_blank"
-                                    class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">add</i></a>
+                                <a href="#modal6" class="btn-floating halfway-fab waves-effect waves-light modal-trigger modal-close"><i class="material-icons">add</i></a>
                             </div>
                             <div class="card-content">
                                 <span class="card-title">README Generator</span>
                                 <p>Comming soon! This application will allow for you to generate professional grade README files by just answering a few questions</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col s12 m6 l4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="assets/images/design_files/horiseon_icon.png">
-                                <a href="https://jeffcela.github.io/01-HTML-CSS-and-Git-Code-Refactor/" target="_blank" class="btn-floating halfway-fab waves-effect waves-light"><i
-                                        class="material-icons">add</i></a>
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title">Horiseon</span>
-                                <p>The client Horiseon wanted their site to be optimized for accessibility standards and seo. I updated the .index file with semantic structure and consolidate styles.</p>
+                        <!-- Modal Structure Scheduler -->
+                        <div id="modal6" class="modal bottom-sheet">
+                            <div class="modal-content modal-close">
+                                <div class="row">
+                                    <div class="col s12 m4 l2 center">
+                                        <h4>README Generator</h4>
+                                        <p><a href="#!" target="_blank"><i class="material-icons prefix icon-modal">web</i>Deployed Project</a></p>
+                                        <p><a href="#!" target="_blank"><i class="material-icons prefix icon-modal">sd_storage</i>Project Repository</a></p>
+                                    </div>
+                                    <img class="col s12 m8 l10" src="assets/images/brand_logos/#">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </main>
 
         <!-- This is the footer -->
