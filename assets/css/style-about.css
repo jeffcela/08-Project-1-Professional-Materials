@@ -10,6 +10,7 @@
 
 .quote {
   font-size: 24px;
+  margin: 50px 0px;
 }
 
 .quote-name {
@@ -19,10 +20,6 @@
 
 .quote-marks {
   color: var(--yellow);
-}
-
-.divider {
-  margin: 100px 0px;
 }
 
 .btn-style,
@@ -62,9 +59,6 @@
     font-size: 16px;
     padding-left: 100px;
   }
-  .divider {
-    margin: 50px 0px;
-  }
 }
 @media (max-width: 800px) {
   .bio-picture {
@@ -102,8 +96,5 @@
   .quote-name,
   .quote-marks {
     font-size: 20px;
-  }
-  .divider {
-    margin: 10px 0px;
   }
 }

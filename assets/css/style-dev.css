@@ -19,11 +19,16 @@
   background-color: var(--yellow);
 }
 
-.icon-modal {
+.icon-modal,
+.text-modal {
   color: var(--darkBlue);
-  width: 30px;
+  width: 40px;
   position: relative;
-  top: 7px;
+  top: 5px;
+}
+
+.text-modal {
+  font-size: 18px;
 }
 
 li {

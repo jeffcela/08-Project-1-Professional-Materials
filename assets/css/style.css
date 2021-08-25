@@ -112,7 +112,7 @@ p {
 }
 
 .footer-icon {
-  margin: 10px 15px;
+  margin: 0px 15px 15px 0px;
   width: 25px;
 }
 
@@ -157,7 +157,10 @@ p {
     margin-top: 15px;
   }
   .footer-icon {
-    margin: 0px 15px;
+    margin: 0px 15px 15px 0px;
     width: 25px;
+  }
+  .carousel {
+    perspective: 275px;
   }
 }
