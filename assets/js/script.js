@@ -10,3 +10,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 $('.sidenav').sidenav();
 });
+
+$(`.modalselector`).leanModal({
+      dismissible: false
+});
