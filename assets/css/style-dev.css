@@ -36,5 +36,23 @@ li {
 }
 
 .modal-close {
-  margin-bottom: 20px;
+  margin: 20px 20px;
+}
+
+@media (max-width: 1000px) {
+  .modal-close {
+    margin: 20px 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .modal-close {
+    margin: 15px 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .modal-close {
+    margin: 10px 10px;
+  }
 }
